@@ -27,6 +27,10 @@ The usage is pretty straight forward.   Run the script with your simplenote
 userid and password and specify how you want the backup to be done ie. To a
 SQLite database or to a file. 
 
+Every time you run the script, it will get all your notes and attempt to sync
+with the existing database if one exists and update notes to their latest
+version.  If you want a fresh backup to be created use the "-c" option.
+
     usage: snbackup.py [-h] [-v] -u USER -p PASSWORD [-c] (-s SQLITE | -j JSON)
 
     optional arguments:
