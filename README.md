@@ -1,6 +1,6 @@
 # simplenote-backup
 
-A small python based script to backup all your simplenote.com scripts.  
+A small python based script to backup all your simplenote.com notes.  
 
 
 ## Background
